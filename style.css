@@ -58,25 +58,25 @@ h1{
     border: 6px solid white;
     border-radius: 10px;
     height: 400px;
-    background-image: url("/images/embrulho.jpg");
+    background-image: url("images/embrulho.jpg");
     background-size: cover;
 }
 
 #gif1:hover{
-    background-image: url("/images/happy.gif");
+    background-image: url("images/happy.gif");
     height:500px;
 }
 #gif2:hover{
-    background-image: url("/images/vava.gif");
+    background-image: url("images/vava.gif");
     width: 800px;
 }
 #gif3:hover{
-    background-image: url("/images/sixseven.gif");
+    background-image: url("images/sixseven.gif");
     width: 800px;
     height: 450px;
 }
 #gif4:hover{
-    background-image: url("/images/birthday.gif");
+    background-image: url("images/birthday.gif");
 }
 #parabens{
     font-size: 35px;
