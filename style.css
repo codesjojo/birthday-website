@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff,pink);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #F9F901;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 40px;
+}
+
+.gift-title {
+    margin-bottom: 20px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    display: block;
+    margin: 0px auto;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-image: url("/birthdaygift/images/embrulho.jpg");
+    background-size: cover;
+}
+
+#gif1:hover{
+    background-image: url("/birthdaygift/images/happy.gif");
+    height:500px;
+}
+#gif2:hover{
+    background-image: url("/birthdaygift/images/vava.gif");
+    width: 800px;
+}
+#gif3:hover{
+    background-image: url("/birthdaygift/images/sixseven.gif");
+    width: 800px;
+    height: 450px;
+}
+#gif4:hover{
+    background-image: url("/birthdaygift/images/birthday.gif");
+}
+#parabens{
+    font-size: 35px;
+}
